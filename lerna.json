@@ -1,0 +1,21 @@
+{
+  "npmClient": "pnpm",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "exact": true
+    },
+    "publish": {
+      "npmClient": "npm",
+      "allowBranch": [
+        "canary",
+        "next-15-5"
+      ],
+      "registry": "https://registry.npmjs.org/"
+    }
+  },
+  "version": "15.5.1"
+}
