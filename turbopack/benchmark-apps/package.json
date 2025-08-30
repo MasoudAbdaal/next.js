@@ -21,7 +21,7 @@
     "react-refresh": "0.16.0",
     "react-router-dom": "7.0.2",
     "shiki": "^1.27.2",
-    "typescript": "5.7.2",
+    "typescript": "5.9.2",
     "vega-lite": "5.23.0"
   },
   "devDependencies": {
